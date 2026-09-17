@@ -31,7 +31,7 @@ Level 1: 2 calls of sizes $\frac{n}{3}$ and $\frac{2n}{3}$ with work of $log{\fr
 
 For each level where no nodes have reached their base case, the subproblems sum to size n
 
-So, any sub-problem with size $m$ has a local work of $mlog{m}$
+So, any sub-problem with size $m$ has a local work of $mlog{m}$, or at most $O(nlog{n})$
 
 .  
 .  
