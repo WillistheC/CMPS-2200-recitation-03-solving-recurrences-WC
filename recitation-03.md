@@ -35,7 +35,7 @@ So, any sub-problem with size $m$ has a local work of $mlog{m}$, or at most $O(n
 
 The shortest branch is the repeated $\frac{n}{3}$ branch, which has a height of $log{_3}{n}$
 
-The longest branch is the repeated $\frac{2n}{3}$ branch, which has a height of $log{_\frac{3}{2}}{n}$
+The longest branch is the repeated $\frac{2n}{3}$ branch, which has a height of $log{_\frac{3}{2}}{n}$, so branch height is $θ(log{n})$
 
 c) $W(n) = 2W(n/2)+ n/ \log n$
 .  
