@@ -26,6 +26,8 @@ $\sum_{i=0}^{\log_4 n - 1} n^2\left(\frac{3}{16}\right)^i$ = $θ(n^{2})$
 The leaves contribute $n^{log{3}}$ which is smaller, so $W(n) = θ(n^{2})$
 
 b) $W(n) = W(n/3)+ W(2n/3) + n \log n$
+
+Level 1: 2 calls of sizes $\frac{n}{3}$ and $\frac{2n}{3}$ with work of $log{\frac{n}{3}} = (\frac{n}{3})(log{\frac{n}{3} + (\frac{2n}{3})(log{\frac{2n}{3}
 .  
 .  
 .  
