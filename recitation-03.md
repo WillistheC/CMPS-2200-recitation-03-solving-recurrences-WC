@@ -9,9 +9,10 @@ In this recitation, we will investigate recurrences for work and span of algorit
 Solve the following recurrences using the tree method. 
 
 a) $W(n) = 3W(n/4) + n^2$
+
 Level 0: $n$  
-.  
-.  
+
+1: 3 calls of $(\frac{n}{4}) = 3(\frac{n}{4}) = \frac{3n}{4}$
 .  
 .  
 .  
