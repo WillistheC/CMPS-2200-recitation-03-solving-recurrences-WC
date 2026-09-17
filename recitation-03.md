@@ -33,11 +33,8 @@ For each level where no nodes have reached their base case, the subproblems sum 
 
 So, any sub-problem with size $m$ has a local work of $mlog{m}$, or at most $O(nlog{n})$
 
-.  
-.  
-.  
-.  
-.  
+The shortest branch is the repeated $\frac{n}{3}$ branch, which has a height of $log{_3}{n}$
+
 
 
 c) $W(n) = 2W(n/2)+ n/ \log n$
