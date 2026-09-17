@@ -16,6 +16,10 @@ Level 1: 3 calls of $(\frac{n^{2}}{16}) = 3(\frac{n^{2}}{16}) = \frac{3n^{2}}{16
 
 Level $i$: $3^{i}$ calls of $(\frac{n^{2}}{16^{i}}) = \frac{3^{i}n^{2}}{16^{i}}$
 
+$\frac{3}{16} < 1$, so it is decreasing geometrically
+
+The size of a sub-problem at level $h$ is $\frac{n}{4^{h}}
+
 .  
 .  
 .  
