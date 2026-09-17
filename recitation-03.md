@@ -51,12 +51,8 @@ This gives $\(\sum_{i=0}^{\log_2 n - 2} \frac{n}{\log_2 n - i}\)$ as the summati
 
 After factoring out the $n$ in the numerator, there is a harmonic series giving the final summation of $nlog{log{n}}$
 
-Base calls from the leaves only give $O(n)$, so $W(n) = O(nlog{log{n}}$
-.  
-.  
-.  
-.  
-.  
+Base calls from the leaves only give $O(n)$, so $W(n) = O(nlog{log{n}})$
+
 
 
 ## Brick method (6 pts)
