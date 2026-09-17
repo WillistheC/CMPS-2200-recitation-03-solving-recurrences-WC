@@ -80,7 +80,7 @@ Solve the following recurrence.
 
 f) $W(n) = \sqrt{n}W(\sqrt{n}) + \sqrt{n}$
 .  
-.  
+.  Did not complete
 .  
 .  
 .  
