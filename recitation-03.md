@@ -29,7 +29,8 @@ b) $W(n) = W(n/3)+ W(2n/3) + n \log n$
 
 Level 1: 2 calls of sizes $\frac{n}{3}$ and $\frac{2n}{3}$ with work of $log{\frac{n}{3}} = (\frac{n}{3})log{\frac{n}{3}} + (\frac{2n}{3})log{\frac{2n}{3}}$
 
-.  
+For each level where no nodes have reached their base case, the subproblems sum to size n
+
 .  
 .  
 .  
