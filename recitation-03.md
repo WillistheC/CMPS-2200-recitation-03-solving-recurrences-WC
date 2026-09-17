@@ -20,7 +20,7 @@ $\frac{3}{16} < 1$, so it is decreasing geometrically
 
 The size of a sub-problem at level $h$ is $\frac{n}{4^{h}}$
 
-The base case happens when $\frac{n}{4^{h}}$, so when $n = 4^{h}$ -> $h = \log{4}{n}$
+The base case happens when $\frac{n}{4^{h}}$, so when $n = 4^{h}$ -> $h = log{4}{n}$
 
 
 b) $W(n) = W(n/3)+ W(2n/3) + n \log n$
