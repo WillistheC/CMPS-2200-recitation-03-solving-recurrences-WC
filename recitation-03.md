@@ -22,7 +22,7 @@ The size of a sub-problem at level $h$ is $\frac{n}{4^{h}}$
 
 The base case happens when $\frac{n}{4^{h}}$, so when $n = 4^{h}$ -> $h = log{_4}{n}$
 
-$\[\sum_{i=0}^{\log_4 n - 1} n^2\left(\frac{3}{16}\right)^i\]$
+$\sum_{i=0}^{\log_4 n - 1} n^2\left(\frac{3}{16}\right)^i$
 
 b) $W(n) = W(n/3)+ W(2n/3) + n \log n$
 .  
