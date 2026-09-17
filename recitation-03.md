@@ -44,8 +44,14 @@ c) $W(n) = 2W(n/2)+ n/ \log n$
 Level $i$: $2^{i}$ sub-problems with local work of $\frac{\frac{n}{2^{i}}}{log{\frac{n}{2^{i}}}}$ multiplying by the amount gives $\frac{n}{log{\frac{n}{2^{i}}}}$
 
 If using asymptotic analysis, we assume a log base of 2, $log{\frac{n}{2^{i}}} = log{n} - i$ so the work for each level is $\frac{n}{log{n}-i}$
-.  
-.  
+
+The height of the tree is $h = log{_2}{n}$
+
+This gives $\(\sum_{i=0}^{\log_2 n - 2} \frac{n}{\log_2 n - i}\)$ as the summation of the work of all levels
+
+After factoring out the $n$ in the numerator, there is a harmonic series giving the final summation of $nlog{log{n}}$
+
+Base calls from the leaves only give $O(n)$, so $W(n) = O(nlog{log{n}}$
 .  
 .  
 .  
