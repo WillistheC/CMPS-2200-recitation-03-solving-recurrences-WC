@@ -61,15 +61,9 @@ whether they are root-dominated, leaf-dominated, or balanced. Then,
 state the resulting asymptotic bound for $W(n)$.
 
 d) $W(n) = 2 W(0.49 n) + 1.01 n$
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
+
+Using the Brick Method, this recurrence is root dominated by $1.01n$, so $W(n) = θ(n)$
+
 
 e) $W(n) = W(n/2) + W(n/4) + 0.999n$
 .  
