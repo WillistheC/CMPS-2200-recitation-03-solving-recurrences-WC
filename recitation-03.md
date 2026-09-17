@@ -41,7 +41,7 @@ This gives $W(n) = θ(log{n}) \dot O(nlog{n}) = θ(nlog^{2}{n})$
 
 c) $W(n) = 2W(n/2)+ n/ \log n$
 
-Level $i$: $2^{i}$ sub-problems with local work of $\frac{\frac{n}{2^{i}}}{log{\frac{n}{2^{i}}}}$
+Level $i$: $2^{i}$ sub-problems with local work of $\frac{\frac{n}{2^{i}}}{log{\frac{n}{2^{i}}}}$ multiplying by the amount gives $\frac{2^{i}}{log{\frac{n}{2^{i}}}}$
 
 .  
 .  
