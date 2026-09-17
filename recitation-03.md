@@ -40,8 +40,9 @@ The longest branch is the repeated $\frac{2n}{3}$ branch, which has a height of 
 This gives $W(n) = θ(log{n}) \dot O(nlog{n}) = θ(nlog^{2}{n})$
 
 c) $W(n) = 2W(n/2)+ n/ \log n$
-.  
-.  
+
+Level $i$: $2^{i}$ sub-problems with local work of $\frac{\frac{n}{2^{i}}}{log{\frac{n}{2^{i}}}$
+
 .  
 .  
 .  
