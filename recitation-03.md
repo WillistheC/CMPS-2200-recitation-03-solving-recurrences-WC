@@ -66,15 +66,12 @@ Using the Brick Method, this recurrence is root dominated by $1.01n$, so $W(n) =
 
 
 e) $W(n) = W(n/2) + W(n/4) + 0.999n$
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
+
+The combined sizes of the recursive subproblems at the levels is less than $n$ (ex. level 1 is $\frac{n}{2} + \frac{n}{4} = \frac{3n}{4}$
+
+So once again the recurrence is root dominated by $.999n$ which is greater than the first level, which is the largest because they decrease in size
+
+So $W(n) = θ(n)$
 
 
 ## Bonus (3 pts)
