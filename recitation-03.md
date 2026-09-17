@@ -10,11 +10,11 @@ Solve the following recurrences using the tree method.
 
 a) $W(n) = 3W(n/4) + n^2$
 
-Level 0: $n$  
+Level 0: $n^{2}$  
 
-1: 3 calls of $(\frac{n}{4}) = 3(\frac{n}{4}) = \frac{3n}{4}$
+Level 1: 3 calls of $(\frac{n^{2}}{16}) = 3(\frac{n^{2}}{16}) = \frac{3n^{2}}{16}$
 
-2: 9 calls of $(\frac{n}{16}) = 9(\frac{n}{16}) = \frac{9n}{16}$
+Level $i$: $3^{i}$ calls of $(\frac{n^{2}}{16^{i}}) = \frac{3^{i}n^{2}}{16^{i}}$
 
 .  
 .  
