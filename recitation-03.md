@@ -13,6 +13,9 @@ a) $W(n) = 3W(n/4) + n^2$
 Level 0: $n$  
 
 1: 3 calls of $(\frac{n}{4}) = 3(\frac{n}{4}) = \frac{3n}{4}$
+
+2: 9 calls of $(\frac{n}{16}) = 9(\frac{n}{16} = \frac{9n}{16}$
+
 .  
 .  
 .  
