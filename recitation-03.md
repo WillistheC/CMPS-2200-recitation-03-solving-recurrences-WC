@@ -37,7 +37,7 @@ The shortest branch is the repeated $\frac{n}{3}$ branch, which has a height of 
 
 The longest branch is the repeated $\frac{2n}{3}$ branch, which has a height of $log{_\frac{3}{2}}{n}$, so branch height is $θ(log{n})$
 
-This gives $W(n) = θ(log{n}) \dot O(nlog{n}) = θ(nlog^{2}{n})
+This gives $W(n) = θ(log{n}) \dot O(nlog{n}) = θ(nlog^{2}{n})$
 
 c) $W(n) = 2W(n/2)+ n/ \log n$
 .  
